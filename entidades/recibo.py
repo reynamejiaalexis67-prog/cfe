@@ -3,7 +3,7 @@ from tarifa_enum import Tarifa
 
 class Recibo:
 
-    def __init__(self, consumo_kw, tarifa):
+    def __init__(self, consumo_kw:float, tarifa:Tarifa):
         self.consumo_kw = consumo_kw
         self.tarifa = tarifa
 

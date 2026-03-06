@@ -32,5 +32,8 @@ else:
 costo = Recibo(gasto, tarifa)
 
 print(c2.nombre)
+print(c2.direccion)
+print(c2.fecha)
+
 
 print("usted debe", costo.calcular_precio_total(), "pesos mexicanos")
